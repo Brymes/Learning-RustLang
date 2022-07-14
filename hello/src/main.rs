@@ -20,7 +20,7 @@ fn greatest_common_divisor(mut n: u64, mut m: u64) -> u64 {
 
 # [test]
 fn test_greatest_common_divisor() {
-    assert_eq!(greatest_common_divisor(15, 24), 1);
+    assert_eq!(greatest_common_divisor(14, 15), 1);
 
     assert_eq!(greatest_common_divisor(2 * 3 * 5 * 11 * 17 , 3 * 7 * 11 * 13 * 19), 3 * 11)
 }
