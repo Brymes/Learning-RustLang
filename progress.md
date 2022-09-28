@@ -3,5 +3,7 @@
 ===========
 
 - [x] Day 0: Installation and setup
-- [ ] Day 1: [Learn Rust deeply one step after the other](#learn-rust-deeply-one-step-after-the-other)
-- [ ] Day 2: [Text Processing in Rust](#text-processing-in-rust)
+- [ ] Day 1: Read Programming Rust
+    - [ ] 1. Chapter 1: Systems Programmers can Have Nice Things
+    - [ ] 2. Chapter 2: A Tour of Rust
+    - [ ] 3. Read [https://ibraheem.ca/posts/why-devs-love-rust/](https://ibraheem.ca/posts/why-devs-love-rust/)
