@@ -2,7 +2,7 @@
 
 The book can be found on [here](https://doc.rust-lang.org/book/)
 
-=====================================================
+======================================================================
 
 * [ ] day 1: getting started
     * [ ] installation
