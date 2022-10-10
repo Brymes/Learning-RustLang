@@ -9,11 +9,11 @@ The book can be found on [here](https://doc.rust-lang.org/book/)
     * [x] hello, world
     * [x] hello, cargo
 * [x] day 2: programming a guessing game
-* [ ] day 3: common programming concepts
-    * [ ] variables and mutability
-    * [ ] data types
+* [x] day 3: common programming concepts
+    * [x] variables and mutability
+    * [x] data types
     * [ ] functions
-    * [ ] comments
+    * [x] comments
     * [ ] control flow
 * [ ] day 4: understanding ownership
     * [ ] what is ownership
