@@ -77,5 +77,20 @@ fn main() {
     if threshold < 5 {
         println!("the threshold is below five");
     } else { println!("the threshold is over five"); }
+    if threshold != 4 {
+        println!("threshold isn't 4");
+    }
+
+    let dividend = 6;
+    if dividend % 4 == 0 {
+        println!("the number is divisible by 4");
+    } else if dividend % 3 == 0 {
+        println!("the number is divisible by 3");
+    } else if dividend %2 == 0 {
+        println!("the number is divisible by 2");
+    } else {
+        println!("the number is not divisible by 2, 3, or 4.");
+    }
+
 
 }

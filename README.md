@@ -12,9 +12,9 @@ The book can be found on [here](https://doc.rust-lang.org/book/)
 * [x] day 3: common programming concepts
     * [x] variables and mutability
     * [x] data types
-    * [ ] functions
+    * [x] functions
     * [x] comments
-    * [ ] control flow
+    * [x] control flow
 * [ ] day 4: understanding ownership
     * [ ] what is ownership
     * [ ] references and borrowing
