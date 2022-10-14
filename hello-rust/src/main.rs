@@ -66,4 +66,16 @@ fn main() {
     };
     println!("The value of first_var is {first_var}");
 
+    // Functions
+    // called functions and used macros are expressions
+    // functions return with -> and the type of the value parameter
+
+    // Control flow
+    // if Expressions and loops
+    // if expressions
+    let threshold = 3;
+    if threshold < 5 {
+        println!("the threshold is below five");
+    } else { println!("the threshold is over five"); }
+
 }
