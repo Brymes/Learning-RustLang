@@ -56,4 +56,14 @@ fn main() {
     println!("Hello!, my name is {}. My mutable is {}, and my immutable is {}", name, mutable_num, my_immutable_num);
     // another way to use formatting
     println!("Goodbye, now. It's {name}. And the time taken is {}", THREE_HOURS_IN_SECONDS);
+
+    // Statements and Expressions
+    //statements are instructions that perform some action but don't return a value
+    // expressions evaluate to a resulting value
+    let  first_var = {
+        let second_var = 3;
+        second_var + 1 //expressions doesn't include ending semicolons
+    };
+    println!("The value of first_var is {first_var}");
+
 }
