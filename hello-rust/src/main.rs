@@ -91,6 +91,35 @@ fn main() {
     } else {
         println!("the number is not divisible by 2, 3, or 4.");
     }
+    // Loops: loop, while, for
+    // `loop` repeats infinitely unless when stopped `break`
+    loop {
+        println!("again!");
+    }
+    // continue skips over the rest iteration in a loop to the next iteration
+    let mut counter = 0; // always create and initialize counter to zero
+    let result = loop {
+        counter += 1;
 
+        if counter == 10 {
+            break counter * 2
+        }
+    };
+    println!("the result is {result}");
+    // nested loops
+    let mut count = 0;
+    'counting_up: loop {
+        println!("count = {count}");
+        let mut remaining = 10;
 
+        loop {
+            println!("remaining = {remaining}");
+            if remaining == 9 {
+                break;
+            }
+            if count == 2 {
+
+            }
+        }
+    }
 }
