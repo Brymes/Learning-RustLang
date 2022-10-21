@@ -1,13 +1,36 @@
+#![allow(unused_variables)]
 fn main() {
-    // variables:
+    // VARIABLES
     // mutable:
     let mut mutable_num: i64 = 100;
     // immutable:
     let my_immutable_num: i64 = 50;
-    // string
+
+
+    // string (u8)
+    // has 2 types: String and &str (string slice)
     let name:&str = "MacBobby";
+    // String is mutable, &str is not mutable. String is stored on heap, &str is stored on heap, stack,or embedded
+    let mut slogan = String::new();
+    slogan.push_str("Just do it");
+
+    // converting:
+    let new_name_1 = name.to_string();
+    let new_name_2 = "MacBobby".to_string();
+    let new_name_3 = String::from("MacBobby");
+    // Concatenating strings
+    // method 1: the concatenation macro
+    let duck = "Duck";
+    let airlines = "Airlines";
+    let airline_name = [duck, " ", airlines].concat();
+    println!("{}", airline_name);
+    // method 2: the format macro
+    let airline_name_2 = format!("{} {}", duck, airlines);
+    println!("{}", airline_name_2);
+
     // constants
     const THREE_HOURS_IN_SECONDS: u64 = 60 * 60 * 3;
+
     // Shadowing
     let a = 5;
     let a = a + 1;
@@ -17,7 +40,7 @@ fn main() {
     }
     println!{"The value of the outer a is {a}"};
 
-    // DATA Types: scalar and compound data types
+    // DATA TYPES: scalar and compound data types
     // scalar represent single value: integers, floating point numbers, booleans,characters.
     // float
     let fpn = 2.0; // f64
