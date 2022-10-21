@@ -31,6 +31,14 @@ fn main() {
     // constants
     const THREE_HOURS_IN_SECONDS: u64 = 60 * 60 * 3;
 
+    // CASTING DATA TYPES
+    let float_num = 16.5;
+    let unsigned_num = 4;
+    let cast_unsigned_num = unsigned_num as f64;
+    let result = float_num / cast_unsigned_num;
+    println!("{}", result);
+
+
     // Shadowing
     let a = 5;
     let a = a + 1;
