@@ -20,6 +20,15 @@ fn main() {
         }
     };
     println!("the result is {result}");
+
+    let mut a_number: i32 = 3;
+
+    while a_number != 0 {
+        println!("{}!", a_number);
+
+        a_number -= 1;
+    }
+    println!("happy birthday!!!");
 }
 
 // learning functions
