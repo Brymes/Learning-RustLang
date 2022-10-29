@@ -29,6 +29,17 @@ fn main() {
         a_number -= 1;
     }
     println!("happy birthday!!!");
+
+    let an_array = [10, 20, 30, 40, 50];
+    for element in an_array {
+        println!("the value is {element}");
+    }
+    for element in an_array.iter() {
+        println!("the value iterated is {element}");
+    }
+    for number in (1..5).rev() {
+        println!("reversed, it is {number}");
+    }
 }
 
 // learning functions
