@@ -10,7 +10,7 @@ fn main() {
     // string (u8)
     // has 2 types: String and &str (string slice)
     let name:&str = "MacBobby";
-    // String is mutable, &str is not mutable. String is stored on heap, &str is stored on heap, stack,or embedded
+    // String is mutable, &str is not mutable. String is stored on heap, &str is stored on heap, stack, or embedded
     let mut slogan = String::new();
     slogan.push_str("Just do it");
 
