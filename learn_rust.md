@@ -38,7 +38,17 @@ Most programmers at the bleeding edge of Blockchain research code in Rust.
 Furthermore, a lot of tools built for the Blockchain ecosystem have their 
 underlying logic in the Rust language.
 
-### 3. 
+### 3. You are interested in embedded systems development
+Initially, C and C++ remained irreplaceable in the embedded systems space. But as time went on
+and programmers using other languages needed to move into embedded systems with their
+already-familiar language, they started writing libraries in their native languages
+to support embedded programming. Python, for example, has the tinyPython library, and Golang
+has both gobot.io and tinyGo libraries.
+
+It is only natural that the replacement language for C/C++ would support embedded systems 
+development. As a result, there is the Embedded Rust library book that teaches how to program
+microcontrollers of different kinds in Rust. There are also open-source libraries like the AVR-Dude library
+for flashing Rust code to AVR microcontrollers.
 
 ## Development environment set up
 

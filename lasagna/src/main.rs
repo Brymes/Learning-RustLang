@@ -31,3 +31,7 @@ pub fn elapsed_time_in_minutes(number_of_layers: i32, actual_minutes_in_oven: i3
     // )
     return preparation_time_in_minutes(number_of_layers) + actual_minutes_in_oven
 }
+
+fn main() {
+    elapsed_time_in_minutes(9,  90);
+}
