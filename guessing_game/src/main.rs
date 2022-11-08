@@ -1,5 +1,6 @@
+use rand::Rng; // for random number generation
+use std::cmp::Ordering; // for comparing, Ordering between less, greater, and equal.
 use std::io; // for obtaining input/output from user to console
-use rand::Rng;
 
 fn main() {
     println!("Guess the number!");
@@ -17,5 +18,15 @@ fn main() {
                                                         // & signifies that the argument is a reference
         .expect("Failed to read line");
 
+    let guess: i32 = guess.trim()
+        .parse()
+        .expect("please enter a number!");
+
     println!("You guessed: {guess}!");
+
+    match guess.cmp(&secret_number) {
+        Ordering::Less => println!("too small!"),
+        Ordering::Greater => println!("too big!"),
+        Ordering::Equal => println!("You win!"),
+    }
 }
