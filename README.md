@@ -16,6 +16,6 @@ The book can be found on [here](https://doc.rust-lang.org/book/)
     * [x] comments
     * [x] control flow
 * [ ] day 4: understanding ownership
-    * [ ] what is ownership
+    * [x] what is ownership
     * [ ] references and borrowing
     * [ ] the slice type
