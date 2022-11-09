@@ -10,6 +10,12 @@ OWNERSHIP RULES
 2. there can only be one owner at a time.
 3. when the owner leaves the scope, the value is dropped.
 */
-fn main() { 
+fn main() {
+    let mut s = String::from("hello");
+    s.push_str(", world!");
+    println!("{}", s);
     println!("Hello, world!");
+
+    let s2 = s.clone();
+    println!("s = {}, and s2 = {}", s, s2);
 }

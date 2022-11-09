@@ -27,7 +27,6 @@ fn main() {
     // method 2: the format macro
     let airline_name_2 = format!("{} {}", duck, airlines);
     println!("{}", airline_name_2);
-
     // constants
     const THREE_HOURS_IN_SECONDS: u64 = 60 * 60 * 3;
 
@@ -61,7 +60,7 @@ fn main() {
     // COMPOUND types are multiple values in a group: tuples and arrays
     // tuple
     let tuppy: (i32, f64, u8) = (500, 12.2, 1);
-    // use pattern matching get individual values
+    // use pattern matching to get individual values
     let (m, n, o) = tuppy;
     println!("The value of n is: {n}");
     // also use the dot notation
