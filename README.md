@@ -17,5 +17,10 @@ The book can be found on [here](https://doc.rust-lang.org/book/)
     * [x] control flow
 * [ ] day 4: understanding ownership
     * [x] what is ownership
-    * [ ] references and borrowing
+    * [x] references and borrowing
     * [ ] the slice type
+* [ ] day 5: Using structs to structure related data
+    * [ ] defining and instantiating structs
+    * [ ] an example program using structs
+    * [ ] method syntax
+* [ ] day 6: Enums and Pattern matching
