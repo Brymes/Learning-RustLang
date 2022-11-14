@@ -15,10 +15,10 @@ The book can be found on [here](https://doc.rust-lang.org/book/)
     * [x] functions
     * [x] comments
     * [x] control flow
-* [ ] day 4: understanding ownership
+* [x] day 4: understanding ownership
     * [x] what is ownership
     * [x] references and borrowing
-    * [ ] the slice type
+    * [x] the slice type
 * [ ] day 5: Using structs to structure related data
     * [ ] defining and instantiating structs
     * [ ] an example program using structs
