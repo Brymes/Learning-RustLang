@@ -19,7 +19,7 @@ The book can be found on [here](https://doc.rust-lang.org/book/)
     * [x] what is ownership
     * [x] references and borrowing
     * [x] the slice type
-* [ ] day 5: using structs to structure related data
+* [x] day 5: using structs to structure related data
     * [x] defining and instantiating structs
     * [x] an example program using structs
     * [x] method syntax
