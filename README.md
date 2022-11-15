@@ -21,7 +21,7 @@ The book can be found on [here](https://doc.rust-lang.org/book/)
     * [x] the slice type
 * [ ] day 5: using structs to structure related data
     * [x] defining and instantiating structs
-    * [ ] an example program using structs
+    * [x] an example program using structs
     * [ ] method syntax
 * [ ] day 6: enums and pattern matching
     * [ ] defining an enum
